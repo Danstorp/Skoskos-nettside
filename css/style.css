@@ -17,6 +17,7 @@ header{
     font-size: 1.5rem;
     font-weight: 600;
     grid-area: header;
+    background-color: #d9d9d9;
    
 }
 
@@ -89,6 +90,17 @@ main section img{
     margin: -6px;
     
 }
+
+
+/*Kode til produktsiden */
+
+.produkt-tekst{
+    text-align: left;
+    font-weight: 200;
+    
+}
+
+
 
 footer{
     grid-area: footer;
