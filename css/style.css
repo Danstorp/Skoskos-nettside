@@ -100,12 +100,23 @@ main section img{
     
 }
 
+.kategoriliste{
+    text-align: center;
+}
 
+/*Kode til returside*/
+
+.rettigheter{
+    text-align: center;
+    font-size: small;
+    
+}
 
 footer{
     grid-area: footer;
     color: #ffff;
     background-color: #232323;
+    text-decoration: none;
     
 
 }
