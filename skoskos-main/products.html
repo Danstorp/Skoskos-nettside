@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widt=device width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css"> 
+        <link href="css/font/css/fontawesome.css" rel="stylesheet">
+        <link href="css/font/css/brands.css" rel="stylesheet">
+        <link href="css/font/css/solid.css" rel ="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type= "text/css">
+        <title>Skoskos</title>
+    </head>
+
+    <body>
+        <div id="grid-container">
+        <header>
+            <nav>
+                <a href="index1.html" id="logo">Skoskos</a>
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i id="ham" class="fa-solid fa-bars"></i>
+                </div>
+
+                <ul class="navbar">
+                    <li><a href="index1.html" class="linktekst">Hjem</a>
+                    <li><a href="products.html" class="linktekst">Produkter</a>              
+                    <li><a href="retur.html" class="linktekst">Returside</a>
+                </ul>
+
+            </nav>
+            <section>
+                
+            </section>
+        </header>
+
+        <main>
+             <!--Seksjon 1, Skoskos Flow, bilder blir for store i desktop, -->
+
+
+             <section class="dameherre">
+             
+                <div class="herre">
+                    <a href="products.html">
+                        <h2>Herre</h2>
+                        <p>Kjøp herresko her!</p>
+                        <img src="img/herresko.jpg" alt="herresko">
+                        <h2>Herre</h2>
+                        
+                    </a>
+                </div>
+            </section>
+            
+            <!--Seksjon 2, Ferske Modeller og Tidløse klassikere:-->
+
+            <section>
+                <div class="modeller">
+                    <article>          
+                        <h3>Ferske modeller:</h3>
+                        <img src="img/yellowsteam.jpg" alt="yellowsteam">
+                        <img src="img/spenstigsko.jpg" alt="spenstigsko">
+                    </article>
+            
+                    <article>
+                        <h3>Tidløse Klassikere:</h3>
+                        <img src="img/hvitsko.jpg" alt="yellowsteam">
+                        <img src="img/spenstigsko.jpg" alt="spenstigsko">                       
+                     </article>
+                </div>
+            </section>
+
+            <!--Seksjon 4, logo og ordtak-->
+            <section class="bunndel">
+                <h4>Skoskos</h4>
+            <article class="ordtak">
+                <p>Ikke tråkk feil,</p>
+                <p>velg sko som virkelig varer</p>
+            </article>
+        </section>
+
+
+        </main>
+        
+        <footer class="footer">
+            <h4>Skoskos</h4>
+            <p><a href="retur.html" class="linktekst">Retur og leveranse</a></p>
+            <p><a href="#" class="linktekst">Ofte stile spørsmål</a></p>
+            <p><a href="#" class="linktekst">Kontakt oss</a></p>
+            <p><a href="#" class="linktekst">Om Oss</a></p>
+            <p><a href="#" class="linktekst">Kjøspetingelser</a></p>
+            
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+
+
+        </footer>
+
+        </div>
+        <!--kode hentet fra forelesning om navbar-->
+        <script> 
+           let x = document.querySelector(".navbar")
+
+           document.getElementById("ham").addEventListener("click", (e) =>{
+            if (x.className ==="navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar"
+            
+            }
+
+           })
+        </script>
+    </body>
