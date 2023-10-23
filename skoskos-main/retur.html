@@ -16,17 +16,16 @@
         <header>
             <nav>
                 <a href="index1.html" id="logo">Skoskos</a>
-                <div>
+                <div class="ikoner">
                     <i class="fa-solid fa-bag-shopping"></i>
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <i id="ham" class="fa-solid fa-bars"></i>
-                    
                 </div>
 
                 <ul class="navbar">
-                    <li><a href="#">Hjem</a>
-                    <li><a href="#">Produkter</a>              
-                    <li><a href="#">Om oss</a>
+                    <li><a href="index1.html" class="linktekst">Hjem</a>
+                    <li><a href="products.html" class="linktekst">Produkter</a>              
+                    <li><a href="retur.html" class="linktekst">Returside</a>
                 </ul>
 
             </nav>
@@ -40,23 +39,36 @@
             <!--Seksjon 1, Returside:-->
 
             <article>
-                <p>Gratis retur i 30 dager</p>
-                <h3>Returside</h3>
-
+                <p>Gratis retur i 30 dager!</p>
+                <h2>Returside</h2>
                 
-                <img src="img/skoskoflow.jpg" alt="flow" class="section4-image">
-
-
+                <ul>
+                    <li><a href="products.html" class="buy-btn">Retur</a></li>
+                </ul>
                 
             </article>
             </section>
 
             <!--Seksjon 2, Våre kategorier-->
             <section>
-                <article>
-                    <h5>Dine rettigheter som kunde</h5>
-                 <p class="rettigheter">Angrerett: Privatkunder har som regel en angrerett på minst 14 dager etter mottak av varen, hvor de kan returnere varen uten å oppgi noen grunn.</p>
-                 <p>Forbruksrett </p>S
+                <article class="rettigheter">
+                    <h4>Dine rettigheter som kunde</h4>
+                    <p class="rettigheter">Angrerett: Privatkunder har som regel en angrerett på minst 14 dager etter mottak av varen, hvor de kan returnere varen uten å oppgi noen grunn.</p>
+                    <h4>Forbruksrett </h4>
+                    <p>Returrett: Kunder har rett til å returnere varer som de har kjøpt på nettet, innenfor en viss tidsramme (for eksempel 14 eller 30 dager), så lenge varen er i samme tilstand som da den ble mottatt.</p>
+                    <h4>Full refusjon</h4>
+                    <p>Full refusjon: Kunden har krav på full refusjon av kjøpesummen, inkludert eventuelle fraktkostnader, innenfor returperioden.</p>
+                    <h4>Returkostnader</h4>
+                    <p>Det bør klart fremgå om kunden må dekke returkostnadene eller om selgeren vil stå for disse kostnadene.</p>
+                    <h4>Varens tilstand</h4>
+                    <p>Kunden må returnere varen i god stand, helst i original emballasje og med alle tilbehør som fulgte med.</p>
+                    <h4>Unntak fra returrett</h4>
+                    <p>Informer kundene om eventuelle unntak, som for eksempel personlige hygieneartikler eller varer som er spesiallaget etter kundens ønsker.</p>
+                    <h4>Prosedyre for retur</h4>
+                    <p> Forklar hvordan kundene kan starte returprosessen, inkludert kontaktinformasjon og eventuelle skjemaer som må fylles ut.</p>
+               
+               
+               
                 </article>
             </section>
 
@@ -70,17 +82,23 @@
 
         </main>
         
-        <footer>
-            <h4>Skoskos</h4>
-            <p>retur og leveranse</p>
+        <footer class="footer">
+            <a href="index1.html" class="linktekst">
+                <h3>Skoskos</h3>
+            </a>
+            <p><a href="retur.html" class="linktekst">Retur og leveranse</a></p>
+            <p><a href="#" class="linktekst">Ofte stile spørsmål</a></p>
+            <p><a href="#" class="linktekst">Kontakt oss</a></p>
+            <p><a href="#" class="linktekst">Om Oss</a></p>
+            <p><a href="#" class="linktekst">Kjøspetingelser</a></p>
             
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
 
+
         </footer>
 
-        </div>
         <script>
            let x = document.querySelector(".navbar")
 
